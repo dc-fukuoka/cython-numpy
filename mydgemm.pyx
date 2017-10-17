@@ -1,6 +1,7 @@
 import numpy as np
 cimport numpy as np
 import cython
+cimport cython
 from cython.parallel import prange, parallel
 
 DTYPE = np.double
