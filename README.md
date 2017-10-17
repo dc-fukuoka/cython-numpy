@@ -1,7 +1,9 @@
 cython+numpy - matrix-matrix multiplication with cython + numpy and OpenMP.
 ====
+intel compiler is required.  
 how to run:
 ~~~
+$ vi setup.py # <--- rewrite library_dirs if needed
 $ python setup.py build
 $ cp -p build/lib.linux-x86_64-3.6/mydgemm.cpython-36m-x86_64-linux-gnu.so .
 $ ./test.py <size of matrices>
