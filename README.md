@@ -1,4 +1,4 @@
-cython+numpy - matrix-matrix mutiplication with cython + numpy and OpenMP.
+cython+numpy - matrix-matrix multiplication with cython + numpy and OpenMP.
 ====
 how to run:
 ~~~
