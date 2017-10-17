@@ -8,7 +8,7 @@ $ python setup.py build
 $ cp -p build/lib.linux-x86_64-3.6/mydgemm.cpython-36m-x86_64-linux-gnu.so .
 $ ./test.py <size of matrices>
 ~~~
-performance comparison (with intel xeon E5-2680):
+performance comparison between cython+numpy version, normal loop version and numpy.dot() version (with intel xeon E5-2680):
 ~~~
 $ ./test.py 256
 matrix size: 256 x 256
