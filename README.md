@@ -1,4 +1,4 @@
-cython+numpy - matrix-matrix multiplication with cython + numpy and OpenMP.
+openmp-python - matrix-matrix multiplication with cython + numpy and OpenMP.
 ====
 intel compiler is required.  
 how to run:
